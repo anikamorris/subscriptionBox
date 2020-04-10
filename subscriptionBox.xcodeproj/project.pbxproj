@@ -16,6 +16,7 @@
 		CF9DD9A0243D8E5A004214E0 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9DD99F243D8E5A004214E0 /* OnboardingView.swift */; };
 		CF9DD9A2243D8F8D004214E0 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9DD9A1243D8F8D004214E0 /* PageViewController.swift */; };
 		CF9DD9A4243D9E78004214E0 /* PageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9DD9A3243D9E78004214E0 /* PageControl.swift */; };
+		CF9DD9A6243FEFD2004214E0 /* ImageSubview.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9DD9A5243FEFD2004214E0 /* ImageSubview.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		CF9DD99F243D8E5A004214E0 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		CF9DD9A1243D8F8D004214E0 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 		CF9DD9A3243D9E78004214E0 /* PageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControl.swift; sourceTree = "<group>"; };
+		CF9DD9A5243FEFD2004214E0 /* ImageSubview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSubview.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 				CF9DD99F243D8E5A004214E0 /* OnboardingView.swift */,
 				CF9DD9A1243D8F8D004214E0 /* PageViewController.swift */,
 				CF9DD9A3243D9E78004214E0 /* PageControl.swift */,
+				CF9DD9A5243FEFD2004214E0 /* ImageSubview.swift */,
 			);
 			path = subscriptionBox;
 			sourceTree = "<group>";
@@ -161,6 +164,7 @@
 				CF9DD99C243D8D50004214E0 /* Subview.swift in Sources */,
 				CF9DD98A243D00A6004214E0 /* SceneDelegate.swift in Sources */,
 				CF9DD9A0243D8E5A004214E0 /* OnboardingView.swift in Sources */,
+				CF9DD9A6243FEFD2004214E0 /* ImageSubview.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
