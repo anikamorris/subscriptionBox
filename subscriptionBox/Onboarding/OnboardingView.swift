@@ -17,9 +17,11 @@ struct OnboardingView: View {
     ]
     
     var captions:[String] = ["Choose your items", "Get bi-monthly breakfast boxes", "Make it easy to cook delicious breakfast!"]
-    var captios:[String] = []
+    
+    @EnvironmentObject var viewRouter: ViewRouter
     
     @State var currentPageIndex = 0
+    
     var body: some View {
         VStack(alignment: .leading) {
             PageViewController(currentPageIndex: $currentPageIndex, viewControllers: subviews)
