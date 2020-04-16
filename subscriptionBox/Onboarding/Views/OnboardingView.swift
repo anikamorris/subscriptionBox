@@ -24,7 +24,7 @@ struct OnboardingView: View {
         NavigationView {
             VStack() {
                 PageViewController(currentPageIndex: $currentPageIndex, viewControllers: subviews)
-                    .frame(height: 600)
+                    .frame(height: 500)
                 Group {
     //                Text(titles[currentPageIndex])
     //                    .font(.title)

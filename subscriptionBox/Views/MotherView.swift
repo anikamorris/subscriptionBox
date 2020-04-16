@@ -17,10 +17,11 @@ struct MotherView: View {
             if viewRouter.currentPage == "onboardingView" {
                 OnboardingView()
             } else if viewRouter.currentPage == "loginView" {
-                LoginView()
+                NavigationView {
+                    LoginView()
+                }
             }
         }
-        
     }
 }
 

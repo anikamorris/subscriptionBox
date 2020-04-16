@@ -35,7 +35,7 @@ struct BoxButtonStyle: ButtonStyle {
         configuration.label
             .padding()
             .frame(minWidth: 50, maxWidth: 300, minHeight: 50, maxHeight: 150)
-            .background(Color.purple)
+            .background(Color.orange)
             .foregroundColor(Color.white)
             .opacity(configuration.isPressed ? 0.4 : 1)
             .cornerRadius(15)
