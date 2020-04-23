@@ -15,9 +15,9 @@ struct HomeView: View {
                 //pass
             })
                 .padding()
-            Button("Past Boxes", action: {
-                //pass
-            })
+            NavigationLink(destination: PastBoxesView()) {
+                Text("Past Boxes")
+            }
                 .padding()
             Button("Profile", action: {
                 //pass
@@ -25,7 +25,7 @@ struct HomeView: View {
                 .padding()
         }
         .buttonStyle(BoxButtonStyle())
-        .navigationBarTitle("Home")
+        .navigationBarTitle(Text("Home"))
     }
 }
 
