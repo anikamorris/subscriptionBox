@@ -26,7 +26,6 @@ class FavoritesCell: UICollectionViewCell {
     }
     
     func set(title: String) {
-        self.backgroundColor = .systemPink
         guard let label = recipeLabel else { return }
         label.text = title
     }

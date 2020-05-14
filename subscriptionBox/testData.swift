@@ -18,9 +18,12 @@ let recipe1 = Recipe(name: "Strawberry French Toast", imageName: "image")
 let recipe2 = Recipe(name: "Chia Seed Pudding", imageName: "image")
 let recipe3 = Recipe(name: "English Breakfast", imageName: "image")
 let recipe4 = Recipe(name: "Potato Crust Quiche", imageName: "image")
+let recipe5 = Recipe(name: "Eggs & Sausage", imageName: "image")
+let recipe6 = Recipe(name: "Ham & Cheese Pastry", imageName: "image")
 
 
 let box1 = Box(date: "January 2020", recipes: [recipe1, recipe2])
 let box2 = Box(date: "February 2020", recipes: [recipe3, recipe4])
+let box3 = Box(date: "March 2020", recipes: [recipe1, recipe2, recipe3, recipe4, recipe5, recipe6])
 
-let testData = [box1, box2]
+let testData = [box1, box2, box3]

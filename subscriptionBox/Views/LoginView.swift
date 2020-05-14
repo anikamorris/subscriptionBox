@@ -33,7 +33,7 @@ struct LoginView: View {
                 .background(lightGreyColor)
                 .cornerRadius(5.0)
                 .padding(.bottom, 20)
-            NavigationLink(destination: HomeView()) {
+            NavigationLink(destination: MyTabView()) {
                 LoginButtonContent()
             }
         }

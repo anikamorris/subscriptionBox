@@ -41,6 +41,7 @@ class RecipeCollectionViewCell: UICollectionViewCell {
     func reset() {
         self.recipeLabel.textAlignment = .center
         self.recipeLabel.textColor = .white
+        self.recipeLabel.font = .systemFont(ofSize: 30.0, weight: .semibold)
         self.backgroundColor = .systemOrange
     }
 

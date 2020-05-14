@@ -15,6 +15,8 @@ class NewBoxViewController: UIViewController, UICollectionViewDelegate, UICollec
     
     override func viewDidLoad() {
         super.viewDidLoad()
+//    self.parent?.parent?.parent?.parent?.parent?.parent?.parent?.parent?.parent?.parent?.parent?.parent?.parent?.parent?.parent?.parent?.parent?.navigationItem.title = "Pick a Recipe"
+        
         self.collectionView.dataSource = self
         self.collectionView.delegate = self
         self.collectionView.register(RecipeCollectionViewCell.self, forCellWithReuseIdentifier: RecipeCollectionViewCell.identifier)
@@ -24,17 +26,13 @@ class NewBoxViewController: UIViewController, UICollectionViewDelegate, UICollec
     
     override func loadView() {
         super.loadView()
-        let nav = self.parent?.parent?.parent?.parent?.parent?.parent?.parent
-        let textAttributes = [NSAttributedString.Key.foregroundColor:UIColor.red]
-    nav?.navigationController?.navigationBar.titleTextAttributes = textAttributes
-        nav?.navigationItem.title = "Pick a Recipe"
+//        let nav = self.parent
+//        nav?.navigationItem.title = "Pick a Recipe"
 
-        let recipe: Recipe = Recipe(name: "French Toast", imageName: "")
-        let recipe2: Recipe = Recipe(name: "Banana Pancakes", imageName: "")
-        let recipe3: Recipe = Recipe(name: "Broccoli Quiche", imageName: "")
+        let recipe: Recipe = Recipe(name: "Sweet", imageName: "")
+        let recipe2: Recipe = Recipe(name: "Savory", imageName: "")
         content.append(recipe)
         content.append(recipe2)
-        content.append(recipe3)
 
         let collectionView = UICollectionView(frame: .zero, collectionViewLayout: UICollectionViewFlowLayout())
         collectionView.translatesAutoresizingMaskIntoConstraints = false

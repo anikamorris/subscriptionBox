@@ -42,7 +42,7 @@ class HomeViewController: UIViewController {
         collectionView.backgroundColor = UIColor.white
         collectionView.register(UINib(nibName: "TitleCollectionViewCell", bundle: .main), forCellWithReuseIdentifier: TitleCollectionViewCell.identifier)
         collectionView.register(UINib(nibName: "FeaturedCell", bundle: .main), forCellWithReuseIdentifier: FeaturedCell.identifier)
-        collectionView.register(FavoritesCell.self, forCellWithReuseIdentifier: FavoritesCell.identifier)
+        collectionView.register(UINib(nibName: "FavoritesCell", bundle: .main), forCellWithReuseIdentifier: FavoritesCell.identifier)
         self.view.addSubview(collectionView)
         collectionView.reloadData()
     }
@@ -71,5 +71,8 @@ extension HomeViewController: UICollectionViewDataSource {
     }
 }
 
-extension HomeViewController: UICollectionViewDelegate {}
+extension HomeViewController: UICollectionViewDelegate {
+    
+    
+}
 

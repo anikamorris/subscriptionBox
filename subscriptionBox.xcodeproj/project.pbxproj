@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CF1B4144246D82410070FA58 /* MyTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1B4143246D82410070FA58 /* MyTabView.swift */; };
+		CF1B4146246D852F0070FA58 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1B4145246D852F0070FA58 /* ProfileView.swift */; };
+		CF1B4148246D85D40070FA58 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1B4147246D85D40070FA58 /* Home.swift */; };
 		CF2A09DA246D6720007CE565 /* TitleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2A09D8246D671F007CE565 /* TitleCollectionViewCell.swift */; };
 		CF2A09DB246D6720007CE565 /* TitleCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF2A09D9246D671F007CE565 /* TitleCollectionViewCell.xib */; };
 		CF2A09DE246D6E12007CE565 /* FeaturedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2A09DC246D6E12007CE565 /* FeaturedCell.swift */; };
@@ -44,6 +47,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CF1B4143246D82410070FA58 /* MyTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTabView.swift; sourceTree = "<group>"; };
+		CF1B4145246D852F0070FA58 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		CF1B4147246D85D40070FA58 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		CF2A09D8246D671F007CE565 /* TitleCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleCollectionViewCell.swift; sourceTree = "<group>"; };
 		CF2A09D9246D671F007CE565 /* TitleCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TitleCollectionViewCell.xib; sourceTree = "<group>"; };
 		CF2A09DC246D6E12007CE565 /* FeaturedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedCell.swift; sourceTree = "<group>"; };
@@ -227,6 +233,9 @@
 				CF6F5F612448DB3600EF46EE /* PastBoxesView.swift */,
 				CF6F5F6D2448EE3F00EF46EE /* BoxDetail.swift */,
 				CF6F5F6F245138A300EF46EE /* NewBox.swift */,
+				CF1B4143246D82410070FA58 /* MyTabView.swift */,
+				CF1B4145246D852F0070FA58 /* ProfileView.swift */,
+				CF1B4147246D85D40070FA58 /* Home.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -310,6 +319,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CFF9A93D2464F3A2001C5545 /* RecipeCollectionViewCell.swift in Sources */,
+				CF1B4148246D85D40070FA58 /* Home.swift in Sources */,
 				CF2A09E2246D722A007CE565 /* FavoritesCell.swift in Sources */,
 				CF67348924589DE50043ED9A /* TitleSection.swift in Sources */,
 				CF9DD988243D00A6004214E0 /* AppDelegate.swift in Sources */,
@@ -322,6 +332,7 @@
 				CFB012752447F89900C1BC56 /* MotherView.swift in Sources */,
 				CF6F5F6E2448EE3F00EF46EE /* BoxDetail.swift in Sources */,
 				CF9DD99C243D8D50004214E0 /* Subview.swift in Sources */,
+				CF1B4144246D82410070FA58 /* MyTabView.swift in Sources */,
 				CF6734902458A05F0043ED9A /* HomeViewController.swift in Sources */,
 				CF6F5F682448E41900EF46EE /* Item.swift in Sources */,
 				CF67347D245899880043ED9A /* Section.swift in Sources */,
@@ -330,6 +341,7 @@
 				CF6F5F6C2448EC8400EF46EE /* Recipe.swift in Sources */,
 				CF9DD98A243D00A6004214E0 /* SceneDelegate.swift in Sources */,
 				CF2A09DA246D6720007CE565 /* TitleCollectionViewCell.swift in Sources */,
+				CF1B4146246D852F0070FA58 /* ProfileView.swift in Sources */,
 				CF6F5F662448E39000EF46EE /* Box.swift in Sources */,
 				CF6F5F6024480CE600EF46EE /* LoginView.swift in Sources */,
 				CF67348D24589E0C0043ED9A /* FavoritesSection.swift in Sources */,

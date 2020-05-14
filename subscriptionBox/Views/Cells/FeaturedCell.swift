@@ -22,5 +22,9 @@ class FeaturedCell: UICollectionViewCell {
     func setup() {
         recipeImageView.layer.cornerRadius = 5
     }
+    
+    func setImage(image: UIImage) {
+        recipeImageView.image = image
+    }
 
 }

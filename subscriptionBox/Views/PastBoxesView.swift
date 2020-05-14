@@ -31,11 +31,14 @@ struct BoxCell: View {
     let box: Box
     var body: some View {
         NavigationLink(destination: BoxDetail(box: box)) {
-            Image("box")
+            Image(systemName: "cube.box")
                 .resizable()
+                .frame(width: CGFloat(50), height: CGFloat(50))
                 .aspectRatio(contentMode: .fit)
                 .clipped()
+            Spacer()
             Text(box.date)
+                .font(.headline)
         }
     }
 }
