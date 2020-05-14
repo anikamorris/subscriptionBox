@@ -15,7 +15,6 @@ class NewBoxViewController: UIViewController, UICollectionViewDelegate, UICollec
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.parent?.navigationItem.title = "Pick a Recipe"
         self.collectionView.dataSource = self
         self.collectionView.delegate = self
         self.collectionView.register(RecipeCollectionViewCell.self, forCellWithReuseIdentifier: RecipeCollectionViewCell.identifier)
@@ -25,7 +24,11 @@ class NewBoxViewController: UIViewController, UICollectionViewDelegate, UICollec
     
     override func loadView() {
         super.loadView()
-        
+        let nav = self.parent?.parent?.parent?.parent?.parent?.parent?.parent
+        let textAttributes = [NSAttributedString.Key.foregroundColor:UIColor.red]
+    nav?.navigationController?.navigationBar.titleTextAttributes = textAttributes
+        nav?.navigationItem.title = "Pick a Recipe"
+
         let recipe: Recipe = Recipe(name: "French Toast", imageName: "")
         let recipe2: Recipe = Recipe(name: "Banana Pancakes", imageName: "")
         let recipe3: Recipe = Recipe(name: "Broccoli Quiche", imageName: "")
