@@ -10,6 +10,7 @@ import SwiftUI
 
 struct LoginView: View {
     
+    @State var isPresented = false
     @State var username: String = ""
     @State var password: String = ""
     
@@ -17,7 +18,11 @@ struct LoginView: View {
     
     var body: some View {
         VStack {
-            TitleText()
+            if self.isPresented {
+                TitleText()
+                .scaleEffect(1.5)
+                .animation(Animation.easeOut(duration: 1.0))
+            }
             TextField("Username", text: $username)
                 .padding()
                 .background(lightGreyColor)
@@ -33,6 +38,7 @@ struct LoginView: View {
             }
         }
         .padding()
+        .onAppear { self.isPresented.toggle() }
     }
 }
 
@@ -43,6 +49,7 @@ struct LoginView_Previews: PreviewProvider {
 }
 
 struct TitleText: View {
+
     var body: some View {
         Text("Breakfast Box")
             .font(.largeTitle)

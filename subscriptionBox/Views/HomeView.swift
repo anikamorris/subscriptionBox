@@ -11,9 +11,9 @@ import SwiftUI
 struct HomeView: View {
     var body: some View {
         VStack {
-            Button("New Box", action: {
-                //pass
-            })
+            NavigationLink(destination: NewBox()) {
+                Text("New Box")
+            }
                 .padding()
             NavigationLink(destination: PastBoxesView()) {
                 Text("Past Boxes")

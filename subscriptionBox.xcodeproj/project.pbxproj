@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CF67347D245899880043ED9A /* Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF67347C245899880043ED9A /* Section.swift */; };
+		CF67348924589DE50043ED9A /* TitleSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF67348824589DE50043ED9A /* TitleSection.swift */; };
+		CF67348B24589DF70043ED9A /* FeaturedSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF67348A24589DF70043ED9A /* FeaturedSection.swift */; };
+		CF67348D24589E0C0043ED9A /* FavoritesSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF67348C24589E0C0043ED9A /* FavoritesSection.swift */; };
+		CF6734902458A05F0043ED9A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF67348F2458A05F0043ED9A /* HomeViewController.swift */; };
 		CF6F5F6024480CE600EF46EE /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6F5F5F24480CE600EF46EE /* LoginView.swift */; };
 		CF6F5F622448DB3600EF46EE /* PastBoxesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6F5F612448DB3600EF46EE /* PastBoxesView.swift */; };
 		CF6F5F662448E39000EF46EE /* Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6F5F652448E39000EF46EE /* Box.swift */; };
@@ -14,6 +19,7 @@
 		CF6F5F6A2448E80900EF46EE /* testData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6F5F692448E80900EF46EE /* testData.swift */; };
 		CF6F5F6C2448EC8400EF46EE /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6F5F6B2448EC8400EF46EE /* Recipe.swift */; };
 		CF6F5F6E2448EE3F00EF46EE /* BoxDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6F5F6D2448EE3F00EF46EE /* BoxDetail.swift */; };
+		CF6F5F70245138A400EF46EE /* NewBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6F5F6F245138A300EF46EE /* NewBox.swift */; };
 		CF9DD988243D00A6004214E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9DD987243D00A6004214E0 /* AppDelegate.swift */; };
 		CF9DD98A243D00A6004214E0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9DD989243D00A6004214E0 /* SceneDelegate.swift */; };
 		CF9DD98E243D00AB004214E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF9DD98D243D00AB004214E0 /* Assets.xcassets */; };
@@ -26,9 +32,16 @@
 		CFB012732447F81100C1BC56 /* ViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB012722447F81000C1BC56 /* ViewRouter.swift */; };
 		CFB012752447F89900C1BC56 /* MotherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB012742447F89900C1BC56 /* MotherView.swift */; };
 		CFB012782447FE5400C1BC56 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB012772447FE5400C1BC56 /* OnboardingView.swift */; };
+		CFF9A9392464EFB8001C5545 /* NewBoxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF9A9372464EFB7001C5545 /* NewBoxViewController.swift */; };
+		CFF9A93D2464F3A2001C5545 /* RecipeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF9A93B2464F3A2001C5545 /* RecipeCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CF67347C245899880043ED9A /* Section.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Section.swift; sourceTree = "<group>"; };
+		CF67348824589DE50043ED9A /* TitleSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleSection.swift; sourceTree = "<group>"; };
+		CF67348A24589DF70043ED9A /* FeaturedSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedSection.swift; sourceTree = "<group>"; };
+		CF67348C24589E0C0043ED9A /* FavoritesSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesSection.swift; sourceTree = "<group>"; };
+		CF67348F2458A05F0043ED9A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		CF6F5F5F24480CE600EF46EE /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		CF6F5F612448DB3600EF46EE /* PastBoxesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastBoxesView.swift; sourceTree = "<group>"; };
 		CF6F5F652448E39000EF46EE /* Box.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Box.swift; sourceTree = "<group>"; };
@@ -36,6 +49,7 @@
 		CF6F5F692448E80900EF46EE /* testData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testData.swift; sourceTree = "<group>"; };
 		CF6F5F6B2448EC8400EF46EE /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
 		CF6F5F6D2448EE3F00EF46EE /* BoxDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoxDetail.swift; sourceTree = "<group>"; };
+		CF6F5F6F245138A300EF46EE /* NewBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewBox.swift; sourceTree = "<group>"; };
 		CF9DD984243D00A6004214E0 /* subscriptionBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = subscriptionBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF9DD987243D00A6004214E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CF9DD989243D00A6004214E0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -50,6 +64,8 @@
 		CFB012722447F81000C1BC56 /* ViewRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewRouter.swift; sourceTree = "<group>"; };
 		CFB012742447F89900C1BC56 /* MotherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotherView.swift; sourceTree = "<group>"; };
 		CFB012772447FE5400C1BC56 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		CFF9A9372464EFB7001C5545 /* NewBoxViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewBoxViewController.swift; sourceTree = "<group>"; };
+		CFF9A93B2464F3A2001C5545 /* RecipeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +79,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CF67348024589B900043ED9A /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				CFF9A93B2464F3A2001C5545 /* RecipeCollectionViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		CF67348724589DBE0043ED9A /* Sections */ = {
+			isa = PBXGroup;
+			children = (
+				CF67348824589DE50043ED9A /* TitleSection.swift */,
+				CF67348A24589DF70043ED9A /* FeaturedSection.swift */,
+				CF67348C24589E0C0043ED9A /* FavoritesSection.swift */,
+			);
+			path = Sections;
+			sourceTree = "<group>";
+		};
+		CF67348E2458A03B0043ED9A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CF67348F2458A05F0043ED9A /* HomeViewController.swift */,
+				CFF9A9372464EFB7001C5545 /* NewBoxViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		CF6F5F632448DF2B00EF46EE /* Managers */ = {
 			isa = PBXGroup;
 			children = (
@@ -100,8 +143,10 @@
 		CF9DD986243D00A6004214E0 /* subscriptionBox */ = {
 			isa = PBXGroup;
 			children = (
+				CF67348E2458A03B0043ED9A /* Controllers */,
 				CF6F5F642448E37F00EF46EE /* Models */,
 				CF6F5F632448DF2B00EF46EE /* Managers */,
+				CF67348724589DBE0043ED9A /* Sections */,
 				CFB012762447F9BD00C1BC56 /* Views */,
 				CF9DD987243D00A6004214E0 /* AppDelegate.swift */,
 				CF9DD989243D00A6004214E0 /* SceneDelegate.swift */,
@@ -153,11 +198,14 @@
 		CFB012762447F9BD00C1BC56 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				CF67348024589B900043ED9A /* Cells */,
 				CF9DD9AA2447F425004214E0 /* HomeView.swift */,
 				CFB012742447F89900C1BC56 /* MotherView.swift */,
 				CF6F5F5F24480CE600EF46EE /* LoginView.swift */,
 				CF6F5F612448DB3600EF46EE /* PastBoxesView.swift */,
 				CF6F5F6D2448EE3F00EF46EE /* BoxDetail.swift */,
+				CF6F5F6F245138A300EF46EE /* NewBox.swift */,
+				CF67347C245899880043ED9A /* Section.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -178,6 +226,8 @@
 			dependencies = (
 			);
 			name = subscriptionBox;
+			packageProductDependencies = (
+			);
 			productName = subscriptionBox;
 			productReference = CF9DD984243D00A6004214E0 /* subscriptionBox.app */;
 			productType = "com.apple.product-type.application";
@@ -206,6 +256,8 @@
 				Base,
 			);
 			mainGroup = CF9DD97B243D00A6004214E0;
+			packageReferences = (
+			);
 			productRefGroup = CF9DD985243D00A6004214E0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -233,21 +285,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFF9A93D2464F3A2001C5545 /* RecipeCollectionViewCell.swift in Sources */,
+				CF67348924589DE50043ED9A /* TitleSection.swift in Sources */,
 				CF9DD988243D00A6004214E0 /* AppDelegate.swift in Sources */,
 				CF9DD9AB2447F425004214E0 /* HomeView.swift in Sources */,
 				CF9DD9A2243D8F8D004214E0 /* PageViewController.swift in Sources */,
 				CFB012782447FE5400C1BC56 /* OnboardingView.swift in Sources */,
+				CF67348B24589DF70043ED9A /* FeaturedSection.swift in Sources */,
 				CF9DD9A4243D9E78004214E0 /* PageControl.swift in Sources */,
+				CFF9A9392464EFB8001C5545 /* NewBoxViewController.swift in Sources */,
 				CFB012752447F89900C1BC56 /* MotherView.swift in Sources */,
 				CF6F5F6E2448EE3F00EF46EE /* BoxDetail.swift in Sources */,
 				CF9DD99C243D8D50004214E0 /* Subview.swift in Sources */,
+				CF6734902458A05F0043ED9A /* HomeViewController.swift in Sources */,
 				CF6F5F682448E41900EF46EE /* Item.swift in Sources */,
+				CF67347D245899880043ED9A /* Section.swift in Sources */,
 				CF6F5F622448DB3600EF46EE /* PastBoxesView.swift in Sources */,
 				CF6F5F6C2448EC8400EF46EE /* Recipe.swift in Sources */,
 				CF9DD98A243D00A6004214E0 /* SceneDelegate.swift in Sources */,
 				CF6F5F662448E39000EF46EE /* Box.swift in Sources */,
 				CF6F5F6024480CE600EF46EE /* LoginView.swift in Sources */,
+				CF67348D24589E0C0043ED9A /* FavoritesSection.swift in Sources */,
 				CFB012732447F81100C1BC56 /* ViewRouter.swift in Sources */,
+				CF6F5F70245138A400EF46EE /* NewBox.swift in Sources */,
 				CF6F5F6A2448E80900EF46EE /* testData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
